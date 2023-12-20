@@ -55,7 +55,7 @@ header {
 
   .leftbottom {
     font-size:16px;
-   position: relative;
+   position: absolute;
     top: 4%;
     left: 19%;
     margin: 5px;
@@ -182,11 +182,15 @@ section{
     margin-bottom: 0;
   }
 
+    header {
+  background-color: rgb(255, 255, 255);  
+  }
+
   .left {
     position: absolute;
    font-size: 14px;
    top: 1px;
-   left: 30%;
+   left: 27%;
    margin: 3px;
    padding: 10px;
    color: rgb(0, 0, 0,0.8);
@@ -201,8 +205,8 @@ section{
  
   position: absolute;
   font-size: 10px;
-   top: 4%;
-   left: 30%;
+   top: 3%;
+   left: 27%;
    margin: 5px;
    padding: 10px;
    color: rgb(23, 23, 24);
