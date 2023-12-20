@@ -56,7 +56,7 @@ header {
   .leftbottom {
     font-size:16px;
    position: absolute;
-    top: 6%;
+    top: 4%;
     left: 19%;
     margin: 5px;
     padding: 10px;
@@ -201,7 +201,7 @@ section{
  
   position: absolute;
   font-size: 10px;
-   top: 7%;
+   top: 4%;
    left: 30%;
    margin: 5px;
    padding: 10px;
