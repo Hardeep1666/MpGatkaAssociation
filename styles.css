@@ -102,7 +102,39 @@ section{
     padding:2rem 9%;
 }
 
+  .social-icons {
+    position: absolute;
+    padding: 2px 1px;
+    margin: 2px ;
+    top: 0px;
+    right: 0%;
+    z-index: 222; /* Ensures icons are above other content */
+    font-size: 20px;
+    width: 160px;
+  }
 
+  .social-icons a {
+    margin-right: 15px;
+    color: #333; /* Change icon color */
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .social-icons a.youtube:hover {
+    color: #c4302b; /* YouTube official red color */
+  }
+
+  .social-icons a.facebook:hover {
+    color: #024ad8; /* Facebook official blue color */
+  }
+
+  .social-icons a.instagram:hover {
+    color: #a42cf4; /* Instagram official purple color */
+  }
+
+  .social-icons a.twitter:hover {
+    color: #31b0ff; /* Twitter official blue color */
+  }
 
 .running-strip {
     background-color: rgba(0, 0, 0, 0.8);
