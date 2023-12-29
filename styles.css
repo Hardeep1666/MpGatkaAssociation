@@ -16,6 +16,28 @@ header {
   background-color: rgb(255, 255, 255);  
   }
 
+.social-icons a {
+    margin-right: 15px;
+    color: #333; /* Change icon color */
+    text-decoration: none;
+    transition: color 0.1s ease;
+  }
+  .social-icons a.youtube:hover {
+    color: #c4302b; /* YouTube official red color */
+  }
+
+  .social-icons a.facebook:hover {
+    color: #4267B2; /* Facebook official blue color */
+  }
+
+  .social-icons a.instagram:hover {
+    color: #833ab4; /* Instagram official purple color */
+  }
+
+  .social-icons a.twitter:hover {
+    color: #1da1f2; /* Twitter official blue color */
+  } this is css  
+
 
 
   .logo {
